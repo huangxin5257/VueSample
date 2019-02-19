@@ -6,6 +6,7 @@ import PageBasicComponent from './组件基础/App.vue'
 import PageForm from './表单输入绑定/App.vue'
 import PageSolt from './插槽/App.vue'
 import PageVuexStatus from './Vuex状态/App.vue'
+import ElementUI from './ElementUI/App.vue'
 
 export const routes = [
   { path: '/template', component: PageTemplate , title: '模板语法'},
@@ -16,4 +17,5 @@ export const routes = [
   { path: '/event', component: PageEvent , title: '事件机制' },
   { path: '/solt', component: PageSolt , title: '插槽' },
   { path: '/vuex-status', component: PageVuexStatus , title: 'Vuex状态' },
+  { path: '/element-ui', component: ElementUI , title: 'Element UI' },
 ];

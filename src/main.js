@@ -1,10 +1,12 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import App from './AppRouter.vue'
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
 
 import {routes} from "./router-config";
 
-
+Vue.use(ElementUI);
 Vue.use(VueRouter);
 // 2. 定义路由
 // 每个路由应该映射一个组件。 其中"component" 可以是
